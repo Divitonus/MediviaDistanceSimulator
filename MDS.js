@@ -1,12 +1,13 @@
 class Character
 {
-	constructor(level, base_distance, dexterity, sheol_promo, sixth_sense)
+	constructor(level, base_distance, dexterity, sheol_promo, sixth_sense, critical_agility)
 	{
 		this.level = level;
 		this.base_distance = base_distance;
 		this.dexterity = dexterity;
 		this.sheol_promo = sheol_promo;
 		this.sixth_sense = sixth_sense;
+		this.critical_agility = critical_agility;
 	}
 }
 
@@ -283,7 +284,7 @@ function MediviaDistanceSimulator(turns, stance, range_from_enemy, character, we
 function main()
 {
 	// Create a character
-	const character = new Character(620, 136, 241, 1, 0);
+	const character = new Character(620, 136, 241, 1, 0, 0);
 
 	// Create an enemy
 	const enemy = new Enemy(30, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
