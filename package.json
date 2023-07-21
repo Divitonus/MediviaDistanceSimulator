@@ -1,0 +1,14 @@
+{
+	"name": "medivia-distance-simulator",
+	"version": "1.0.0",
+	"description": "Simulates the distance damage in Medivia.",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Divitonus/MediviaDistanceSimulator.git"
+	},
+	"author": "Diviton",
+	"bugs": {
+		"url": "https://github.com/Divitonus/MediviaDistanceSimulator/issues"
+	},
+	"homepage": "https://github.com/Divitonus/MediviaDistanceSimulator"
+}
